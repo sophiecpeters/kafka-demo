@@ -1,0 +1,10 @@
+Docker setup
+if you want to check if kafka is running on the port use:
+ tnc localhost -p 22181
+ tnc localhost -p 29092
+
+Avro Schema
+Avro supports six kinds of complex types: records, enums, arrays, maps, unions and fixed
+
+
+C:\Users\sophi\Documents\Coding\TryOuts\demo\src\main\java\com\kafka\demo\kafka\avro

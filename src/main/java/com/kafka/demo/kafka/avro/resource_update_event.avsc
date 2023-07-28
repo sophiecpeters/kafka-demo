@@ -1,0 +1,8 @@
+{"namespace": "example.avro",
+ "type": "record",
+ "name": "ResourceUpdateEvent",
+ "fields": [
+     {"name": "id", "type": "string"},
+     {"name": "kind", "type": "string"}
+ ]
+}
