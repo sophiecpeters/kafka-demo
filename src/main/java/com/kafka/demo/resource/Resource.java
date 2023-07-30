@@ -2,7 +2,8 @@ package com.kafka.demo.resource;
 
 import lombok.*;
 
-@Data
+@Getter
+@Setter
 public class Resource {
 
     public Resource(String id, String kind){
@@ -10,7 +11,7 @@ public class Resource {
         this.kind = kind;
     }
 
-    private String id;
+    public String id;
     public String kind;
 
 }
